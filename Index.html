@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonlit</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./Photos/icon3.jpg">
+
+</head>
+<style>
+    *{
+        font-family: cursive;
+    }
+    .sec-1{
+    background-image: url(./Photos/32.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    position: relative;
+}
+.content1{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* color: white; */
+    margin-bottom: 30px;
+}
+
+
+.content1 h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 6px;
+    
+}
+
+.content1 h5{
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.btn1{
+    border: none;
+    border-radius: 23px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s all;
+    margin-left: 305px;
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: white;
+}
+.btn1::after{
+    content: '';
+    position: absolute;
+    height: 107%;
+    width: 102%;
+    border-radius: 23px;
+    background-image: linear-gradient(to bottom right, #008cff , #e100ff);
+    z-index: -1;
+}
+.btn1:hover{
+    z-index: 0;
+    box-shadow: 40px 0 100px #008cff , -40px 0 100px #e100ff;
+    transform: scale(1.1);
+}
+</style>
+<body>
+    <main>
+        <section class="sec-1">
+            <div class="content1">
+                <h1><span style="color: #008cff;">M</span>oonli<span style="color: #e100ff;">T</span><i class="fa-solid fa-moon fa-fade" style="color: #74c0fc;"></i></h1>
+                <h5>Explore and find out some new Information about the Planets and Moons in our Solar System</h5>
+                <button class="btn1"><a href="Nrgaka.html">Enter Moonlit</a></button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
